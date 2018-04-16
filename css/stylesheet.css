@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100');
+
+
+[class*="fa-"]:before {
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
+	/*font-family: 'zocial', sans-serif;*/
+	text-shadow: 3px 3px 3px #aaa;
+	/*width: 2em;*/
+	text-align: center;
+}
+
+[class*="fa-"]:before:last-of-type {
+	margin-right: 0;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	display: inline;
+}
+
+#title {
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+#sub_title {
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	margin-top: 0;
+}
+
+.logo {
+	text-align: left
+	height: 250px;
+	width: 250px;
+}
+
+.main_feature {
+	width: 960px;
+}
+
+.feature_img {
+	width: 960px;
+}
+
+.featured_work {
+	
+}
+
+.section_title {
+	font-family: 'Raleway', sans-serif;
+}
+
+figure {
+	text-align: center;
+	margin: auto
+}
+
+figcaption {
+	font-family: 'Raleway';
+}
+
+li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+li:last-of-type {
+	margin-right: 0;
+}
+
+.projects {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0;
+}
+
+.thumb {
+	width: calc(930px/3);
+	height: 200px
+}
+
+#socials {
+	text-align: center;
+}
+
+.zocial-twitter {
+	color: #1da1f2;
+}
+
+.fa-github {
+	color: #000;
+}
+
+.fa-twitter {
+	color: #1da1f2;
+}
+
+
+
