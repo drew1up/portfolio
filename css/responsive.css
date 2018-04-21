@@ -1,0 +1,10 @@
+.main_feature, .featured_work, #socials {
+	order: 10;
+}
+
+
+@media screen and (max-width: 500px) {
+	h1 {
+		text-align: center;
+	}
+}

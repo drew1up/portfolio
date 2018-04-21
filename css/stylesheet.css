@@ -24,7 +24,7 @@ img, embed, object, video {
 }
 
 .container {
-	width: 90vw;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -54,12 +54,12 @@ img, embed, object, video {
 }*/
 
 .main_feature {
-	max-width: 100%;
+	width: 100%;
 	margin-top: 20px;
 }
 
 .featured_work {
-	max-width: 100%;
+	width: 100%;
 	border-bottom: 1px solid #d3d3d3
 }
 
@@ -88,16 +88,16 @@ li:last-of-type {
 
 .projects {
 	display: inline-block;
-	display: flex;
+	/*display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-between;*/
 	list-style-type: none;
 	margin-bottom: 20px;
 	padding: 0px;
 }
 
 .thumb {
-	width: calc(100% - 20px)/3;
+	width: calc(100% - 30px)/3;
 	height: 200px;
 }
 
@@ -117,8 +117,6 @@ footer {
 .fa-twitter {
 	color: #1da1f2;
 }
-
-@media screen and (max-width: 500px) {
 
 
 
