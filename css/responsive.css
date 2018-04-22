@@ -24,6 +24,13 @@
 
 }
 
+@media screen and (min-width: 501px) {
+	.projects {
+		width: calc((100% - 20px)/3);
+	}
+
+}
+
 @media screen and (min-width: 950px) {
 	.container {
 		max-width: 1140px;
@@ -33,6 +40,10 @@
 
 	.main_feature {
 		text-align: center;
+	}
+
+	.section_title {
+		margin-left: 1em;
 	}
 
 	.featured_work {
