@@ -2,6 +2,8 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Andrew Dunton Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -10,36 +12,40 @@
 <body>
 	<div class="container">
 		<header class="header">
+			<div class="titles">
 			<!--<img class="logo" src="#" alt="logo" />-->
-			<h1 class="title">Andrew Dunton</h1>
-			<h3 class="sub_title">front-end developer</h3>
+				<h1 class="title">Andrew Dunton</h1>
+				<h3 class="sub_title">front-end developer</h3>
+			</div>
 		</header>
 		<section class="main_feature">
-			<img class="feature_img" src="images_src/code_workspace.jpg" alt="generic coding workspace" />
+			<img class="feature_img" srcset="images/code_workspace-1280_large_1x.jpg, images/code_workspace-1280_large_2x.jpg" alt="generic coding workspace">
 		</section>
 		<section class="featured_work">
 			<h2 class="section_title">Featured Work</h2>
-			<ul class="projects">
-				<li>
-					<figure class="project_screen">
-						<img class="thumb" src="images_src/proj1.jpg" alt="project cover image" />
-						<figcaption class="project_title">Appify</figcaption>
-						<figcaption class="project_url">www.appify.com</figcaption>
-					</figure>
+			<ul>
+				<li class="projects">
+					<picture>
+						<source 
+							media="(min-width: 1000px)"
+							srcset="images/proj1-1280_large_1x.jpg, images/proj1-1280_large_2x.jpg">
+						<source 
+							media="(min-width: 500px)"
+							srcset="images/proj1-640_medium_1x.jpg, images/proj1-640_medium_2x.jpg">
+						<img class="thumb" srcset="images/proj1-320_small_1x.jpg, images/proj1-320_small_2x.jpg" alt="project cover image">
+						<p>Sunflower</p>
+						<p>www.sunflower.com</p>
+					</picture>
 				</li>
-				<li>
-					<figure class="project_screen">
-						<img class="thumb" src="images_src/proj.2..jpg" alt="project cover image" />
-						<figcaption class="project_title">Sunflower</figcaption>
-						<figcaption class="project_url">www.sunflower.com</figcaption>
-					</figure>
+				<li class="projects">
+					<img class="thumb" src="images_src/proj.2..jpg" alt="project cover image" />
+					<p>Appify</p>
+					<p>www.appify.com</p>
 				</li>
-				<li>
-					<figure class="project_screen">
-						<img class="thumb" src="images_src/proj3..jpg" alt="project cover image" />
-						<figcaption class="project_title">Bokeh</figcaption>
-						<figcaption class="project_url">www.bokeh.com</figcaption>
-					</figure>
+				<li class="projects">
+					<img class="thumb" src="images_src/proj3..jpg" alt="project cover image" />
+					<p>Bokeh</p>
+					<p>www.bokeh.com</p>
 				</li>
 			</ul>
 		</section>

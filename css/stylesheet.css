@@ -1,12 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100');
 
-body {
-	display: flex;
-	flex-wrap: wrap;
-}
 
 img, embed, object, video {
 	max-width: 100%;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+header, footer, section, div {
+	box-sizing: border-box;
+}
+
+footer {
+	width: 100%;
+	order: 11;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 
@@ -25,7 +40,8 @@ img, embed, object, video {
 
 .container {
 	width: 100%;
-	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .header {
@@ -35,14 +51,12 @@ img, embed, object, video {
 }
 
 .title {
-	font-family: 'Raleway', sans-serif;
 	text-align: right;
 	text-transform: uppercase;
 	margin-bottom: 0;
 }
 
 .sub_title {
-	font-family: 'Raleway', sans-serif;
 	text-align: right;
 	margin-top: 0;
 }
@@ -67,27 +81,15 @@ img, embed, object, video {
 	font-family: 'Raleway', sans-serif;
 }
 
-.project_screen {
-	margin: 0px;
-}
-
-figcaption {
-	text-align: center;
-	font-family: 'Raleway';
-}
-
 li {
 	display: inline-block;
-/*	width: calc(100% - 10px)/3;
-*/	margin-right: 10px;
 }
 
-li:last-of-type {
+/*li:last-of-type {
 	margin-right: 0;
-}
+}*/
 
 .projects {
-	display: inline-block;
 	/*display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;*/
@@ -97,11 +99,10 @@ li:last-of-type {
 }
 
 .thumb {
-	width: calc(100% - 30px)/3;
 	height: 200px;
 }
 
-footer {
+#socials {
 	text-align: center;
 	margin: 20px 0;
 }

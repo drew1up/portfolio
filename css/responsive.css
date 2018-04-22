@@ -2,9 +2,60 @@
 	order: 10;
 }
 
-
 @media screen and (max-width: 500px) {
-	h1 {
+
+	.titles {
 		text-align: center;
+	}
+
+	.section_title {
+		text-align: center;
+	}
+
+	.projects {
+		text-align: center;
+		display: block;
+	}
+
+	.thumb {
+		width: 275px;
+		height: 200px;
+	}
+
+}
+
+@media screen and (min-width: 950px) {
+	.container {
+		max-width: 1140px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.main_feature {
+		text-align: center;
+	}
+
+	.featured_work {
+		width: 100%;
+	}
+
+	.projects {
+		width: calc((98% - 10px)/3);
+	}
+
+	.thumb {
+		width: 100%;
+	}
+
+	li {
+		margin-right: 10px;
+	}
+
+	li:last-of-type {
+		margin-right: 0;
+	}
+
+	footer {
+		order: 11;
 	}
 }
