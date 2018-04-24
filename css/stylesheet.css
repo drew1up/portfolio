@@ -28,9 +28,7 @@ ul {
 [class*="fa-"]:before {
 	display: inline-block;
 	margin: 0px 20px 0px 20px;
-	/*font-family: 'zocial', sans-serif;*/
 	text-shadow: 3px 3px 3px #aaa;
-	/*width: 2em;*/
 	text-align: center;
 }
 
@@ -46,7 +44,7 @@ ul {
 
 .header {
 	width: 100%;
-	display: inline-block;
+	display: inline;
 	border-bottom: 1px solid #d3d3d3
 }
 
@@ -61,11 +59,11 @@ ul {
 	margin-top: 0;
 }
 
-/*.logo {
-	text-align: left
-	height: 250px;
-	width: 250px;
-}*/
+.logo {
+	display: inline;
+	width: 150px;
+}
+
 
 .main_feature {
 	width: 100%;
